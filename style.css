@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://media.gettyimages.com/id/515022012/pt/foto/myrt-power-the-71-year-old-georgia-grandma-with-a-record-book-baseball-memory-is-shown-with-hal.jpg?s=1024x1024&w=gi&k=20&c=jF7GJZ1unLUTa2nul4WSJ87YqMd11E8cBdCVQwnukZE=') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .conteudo {
+    background: #3a3f47;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  .pergunta {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .respostas {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  button.correta {
+    background: #28a745 !important;
+  }
+  
+  button.errada {
+    background: #dc3545 !important;
+  }
+  
+  .progresso {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .timer {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  .fim {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reiniciar {
+    margin-top: 15px;
+    background: #ffc107;
+    color: black;
+  }
+  
+  .reiniciar:hover {
+    background: #e0a800;
+  }
+  
